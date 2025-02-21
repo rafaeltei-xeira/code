@@ -1,0 +1,37 @@
+ body {
+    font-family: Arial, sans-serif; /* fonte*/
+    display: flex; /* usa o flexbox para exibir o conteúdo */
+    justify-content: center; /*centraliza na horizontal*/
+    height: 100vh; /* altura da página é todo o conteúdo dela*/
+    align-items: center; /* centraliza na vertica*/
+    background-color: rgb(21, 100, 100);
+}
+.container {
+    background-color: pink;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 4px 8px;
+    text-align: center;
+}
+h2 {
+    padding: 10px;
+}
+button{
+    background-color:black;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: red;
+}
+img{
+    width: 150px;
+    height:150px;
+    border-radius: 75px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}

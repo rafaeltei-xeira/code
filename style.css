@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("https://wallpapers.com/images/hd/rinnegan-95iapfwt3vj9zhpd.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+
+}
+.container{
+    border-radius: 20%;
+    box-shadow: 4px 8px;
+    text-align: center;
+    padding: 20px;
+    background-color: pink;
+}
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+h2{
+    padding: 20px;}
+button{
+    background-color:black;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;}
+button:hover{
+    background-color: brown;
+}
